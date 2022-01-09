@@ -60,6 +60,14 @@
 		6AD79493278A6D5800FC4EF7 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7948C278A6D5800FC4EF7 /* LoginWireFrame.swift */; };
 		6AD7949B278A6DE700FC4EF7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79499278A6DE700FC4EF7 /* LoginView.swift */; };
 		6AD7949C278A6DE700FC4EF7 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD7949A278A6DE700FC4EF7 /* LoginView.xib */; };
+		6AD794C7278A6FF300FC4EF7 /* MainTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C0278A6FF300FC4EF7 /* MainTabPresenter.swift */; };
+		6AD794C8278A6FF300FC4EF7 /* MainTabLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C1278A6FF300FC4EF7 /* MainTabLocalDataManager.swift */; };
+		6AD794C9278A6FF300FC4EF7 /* MainTabProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C2278A6FF300FC4EF7 /* MainTabProtocols.swift */; };
+		6AD794CA278A6FF300FC4EF7 /* MainTabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C3278A6FF300FC4EF7 /* MainTabInteractor.swift */; };
+		6AD794CC278A6FF300FC4EF7 /* MainTabRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C5278A6FF300FC4EF7 /* MainTabRemoteDataManager.swift */; };
+		6AD794CD278A6FF300FC4EF7 /* MainTabWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794C6278A6FF300FC4EF7 /* MainTabWireFrame.swift */; };
+		6AD794D1278A701500FC4EF7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD794CF278A701500FC4EF7 /* MainTabView.swift */; };
+		6AD794D2278A701500FC4EF7 /* MainTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD794D0278A701500FC4EF7 /* MainTabView.xib */; };
 		8FD6FC4B931F6043860B8C1D /* Pods_StarNet_StarNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */; };
 		BE5389331883FFC2229FC6FB /* Pods_StarNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */; };
 		DF44CB4BBA1097919CDB6D93 /* Pods_StarNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */; };
@@ -142,6 +150,14 @@
 		6AD7948C278A6D5800FC4EF7 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		6AD79499278A6DE700FC4EF7 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6AD7949A278A6DE700FC4EF7 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		6AD794C0278A6FF300FC4EF7 /* MainTabPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabPresenter.swift; sourceTree = "<group>"; };
+		6AD794C1278A6FF300FC4EF7 /* MainTabLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabLocalDataManager.swift; sourceTree = "<group>"; };
+		6AD794C2278A6FF300FC4EF7 /* MainTabProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabProtocols.swift; sourceTree = "<group>"; };
+		6AD794C3278A6FF300FC4EF7 /* MainTabInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabInteractor.swift; sourceTree = "<group>"; };
+		6AD794C5278A6FF300FC4EF7 /* MainTabRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabRemoteDataManager.swift; sourceTree = "<group>"; };
+		6AD794C6278A6FF300FC4EF7 /* MainTabWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabWireFrame.swift; sourceTree = "<group>"; };
+		6AD794CF278A701500FC4EF7 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		6AD794D0278A701500FC4EF7 /* MainTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabView.xib; sourceTree = "<group>"; };
 		70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet.debug.xcconfig"; path = "Target Support Files/Pods-StarNet/Pods-StarNet.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet-StarNetUITests.release.xcconfig"; path = "Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +229,7 @@
 				6AD7942D278A68EE00FC4EF7 /* Start */,
 				6AD79471278A6C4600FC4EF7 /* SignUp */,
 				6AD79485278A6D3F00FC4EF7 /* Login */,
+				6AD794BF278A6FDA00FC4EF7 /* MainTab */,
 				6AD7942A278A671200FC4EF7 /* Default */,
 			);
 			path = StarNet;
@@ -380,6 +397,29 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		6AD794BF278A6FDA00FC4EF7 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				6AD794CE278A6FFE00FC4EF7 /* Views */,
+				6AD794C0278A6FF300FC4EF7 /* MainTabPresenter.swift */,
+				6AD794C1278A6FF300FC4EF7 /* MainTabLocalDataManager.swift */,
+				6AD794C2278A6FF300FC4EF7 /* MainTabProtocols.swift */,
+				6AD794C3278A6FF300FC4EF7 /* MainTabInteractor.swift */,
+				6AD794C5278A6FF300FC4EF7 /* MainTabRemoteDataManager.swift */,
+				6AD794C6278A6FF300FC4EF7 /* MainTabWireFrame.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		6AD794CE278A6FFE00FC4EF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AD794CF278A701500FC4EF7 /* MainTabView.swift */,
+				6AD794D0278A701500FC4EF7 /* MainTabView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D7646DE13D5CF2E5A77509BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,6 +557,7 @@
 				6AD7949C278A6DE700FC4EF7 /* LoginView.xib in Resources */,
 				6AD79402278A644700FC4EF7 /* Main.storyboard in Resources */,
 				6AD79483278A6C9C00FC4EF7 /* SignUpView.xib in Resources */,
+				6AD794D2278A701500FC4EF7 /* MainTabView.xib in Resources */,
 				6AD79457278A6A4000FC4EF7 /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +696,7 @@
 				6AD79461278A6B1700FC4EF7 /* FirestoreService.swift in Sources */,
 				6AD79436278A690500FC4EF7 /* StartLocalDataManager.swift in Sources */,
 				6AD79468278A6B5200FC4EF7 /* UserPersistence.swift in Sources */,
+				6AD794C8278A6FF300FC4EF7 /* MainTabLocalDataManager.swift in Sources */,
 				6AD7946F278A6C0C00FC4EF7 /* Reachability.swift in Sources */,
 				6AD79451278A69B200FC4EF7 /* Question.swift in Sources */,
 				6AD79490278A6D5800FC4EF7 /* LoginInteractor.swift in Sources */,
@@ -663,14 +705,18 @@
 				6AD79447278A694800FC4EF7 /* Firebase+Extensions.swift in Sources */,
 				6AD79484278A6C9C00FC4EF7 /* SignUpView.swift in Sources */,
 				6AD7947A278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift in Sources */,
+				6AD794CD278A6FF300FC4EF7 /* MainTabWireFrame.swift in Sources */,
 				6AD7946B278A6B9700FC4EF7 /* Constants.swift in Sources */,
 				6AD7947C278A6C6B00FC4EF7 /* SignUpInteractor.swift in Sources */,
 				6AD7944A278A694800FC4EF7 /* String+Extensions.swift in Sources */,
 				6AD79438278A690500FC4EF7 /* StartInteractor.swift in Sources */,
 				6AD7948F278A6D5800FC4EF7 /* LoginProtocols.swift in Sources */,
+				6AD794CC278A6FF300FC4EF7 /* MainTabRemoteDataManager.swift in Sources */,
+				6AD794D1278A701500FC4EF7 /* MainTabView.swift in Sources */,
 				6AD793FF278A644700FC4EF7 /* ViewController.swift in Sources */,
 				6AD793FB278A644700FC4EF7 /* AppDelegate.swift in Sources */,
 				6AD79452278A69B200FC4EF7 /* iUser.swift in Sources */,
+				6AD794C7278A6FF300FC4EF7 /* MainTabPresenter.swift in Sources */,
 				6AD79463278A6B1700FC4EF7 /* UserServiceProtocol.swift in Sources */,
 				6AD7947F278A6C6B00FC4EF7 /* SignUpWireFrame.swift in Sources */,
 				6AD79458278A6A4000FC4EF7 /* StartView.swift in Sources */,
@@ -684,8 +730,10 @@
 				6AD79445278A694800FC4EF7 /* UIView+Extensions.swift in Sources */,
 				6AD7947E278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift in Sources */,
 				6AD79493278A6D5800FC4EF7 /* LoginWireFrame.swift in Sources */,
+				6AD794CA278A6FF300FC4EF7 /* MainTabInteractor.swift in Sources */,
 				6AD7948E278A6D5800FC4EF7 /* LoginLocalDataManager.swift in Sources */,
 				6AD79448278A694800FC4EF7 /* EntityCast+Extensions.swift in Sources */,
+				6AD794C9278A6FF300FC4EF7 /* MainTabProtocols.swift in Sources */,
 				6AD79470278A6C0C00FC4EF7 /* ReachabilityHelper.swift in Sources */,
 				6AD79492278A6D5800FC4EF7 /* LoginRemoteDataManager.swift in Sources */,
 				6AD79453278A69B200FC4EF7 /* Post.swift in Sources */,
