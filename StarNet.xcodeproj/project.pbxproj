@@ -41,6 +41,7 @@
 		6AD79464278A6B1700FC4EF7 /* FirebaseUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7945E278A6B1700FC4EF7 /* FirebaseUserService.swift */; };
 		6AD79465278A6B1700FC4EF7 /* StorageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7945F278A6B1700FC4EF7 /* StorageServiceProtocol.swift */; };
 		6AD79468278A6B5200FC4EF7 /* UserPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79467278A6B5200FC4EF7 /* UserPersistence.swift */; };
+		6AD7946B278A6B9700FC4EF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7946A278A6B9700FC4EF7 /* Constants.swift */; };
 		8FD6FC4B931F6043860B8C1D /* Pods_StarNet_StarNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */; };
 		BE5389331883FFC2229FC6FB /* Pods_StarNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */; };
 		DF44CB4BBA1097919CDB6D93 /* Pods_StarNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */; };
@@ -104,6 +105,7 @@
 		6AD7945E278A6B1700FC4EF7 /* FirebaseUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUserService.swift; sourceTree = "<group>"; };
 		6AD7945F278A6B1700FC4EF7 /* StorageServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageServiceProtocol.swift; sourceTree = "<group>"; };
 		6AD79467278A6B5200FC4EF7 /* UserPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersistence.swift; sourceTree = "<group>"; };
+		6AD7946A278A6B9700FC4EF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet.debug.xcconfig"; path = "Target Support Files/Pods-StarNet/Pods-StarNet.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet-StarNetUITests.release.xcconfig"; path = "Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		6AD793F9278A644700FC4EF7 /* StarNet */ = {
 			isa = PBXGroup;
 			children = (
+				6AD79469278A6B8900FC4EF7 /* Utilities */,
 				6AD79466278A6B3600FC4EF7 /* Persistence */,
 				6AD79459278A6AE700FC4EF7 /* Services */,
 				6AD7944B278A699000FC4EF7 /* Entities */,
@@ -273,6 +276,14 @@
 				6AD79467278A6B5200FC4EF7 /* UserPersistence.swift */,
 			);
 			path = Persistence;
+			sourceTree = "<group>";
+		};
+		6AD79469278A6B8900FC4EF7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6AD7946A278A6B9700FC4EF7 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		D7646DE13D5CF2E5A77509BB /* Frameworks */ = {
@@ -549,6 +560,7 @@
 				6AD79465278A6B1700FC4EF7 /* StorageServiceProtocol.swift in Sources */,
 				6AD79450278A69B200FC4EF7 /* Message.swift in Sources */,
 				6AD79447278A694800FC4EF7 /* Firebase+Extensions.swift in Sources */,
+				6AD7946B278A6B9700FC4EF7 /* Constants.swift in Sources */,
 				6AD7944A278A694800FC4EF7 /* String+Extensions.swift in Sources */,
 				6AD79438278A690500FC4EF7 /* StartInteractor.swift in Sources */,
 				6AD793FF278A644700FC4EF7 /* ViewController.swift in Sources */,
