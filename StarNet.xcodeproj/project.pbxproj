@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		6AD79412278A644900FC4EF7 /* StarNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79411278A644900FC4EF7 /* StarNetTests.swift */; };
 		6AD7941C278A644900FC4EF7 /* StarNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7941B278A644900FC4EF7 /* StarNetUITests.swift */; };
 		6AD7941E278A644900FC4EF7 /* StarNetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7941D278A644900FC4EF7 /* StarNetUITestsLaunchTests.swift */; };
+		8FD6FC4B931F6043860B8C1D /* Pods_StarNet_StarNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */; };
+		BE5389331883FFC2229FC6FB /* Pods_StarNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */; };
+		DF44CB4BBA1097919CDB6D93 /* Pods_StarNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DCDB090AEF44C76E4A3DFF9 /* Pods-StarNet-StarNetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet-StarNetUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DEBEA088703E57540DB078A /* Pods-StarNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet.release.xcconfig"; path = "Target Support Files/Pods-StarNet/Pods-StarNet.release.xcconfig"; sourceTree = "<group>"; };
 		6AD793F7278A644700FC4EF7 /* StarNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD793FA278A644700FC4EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD793FC278A644700FC4EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		6AD79417278A644900FC4EF7 /* StarNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD7941B278A644900FC4EF7 /* StarNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarNetUITests.swift; sourceTree = "<group>"; };
 		6AD7941D278A644900FC4EF7 /* StarNetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarNetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet.debug.xcconfig"; path = "Target Support Files/Pods-StarNet/Pods-StarNet.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet-StarNetUITests.release.xcconfig"; path = "Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACEFFA50B7FC2A1BBCBF425 /* Pods-StarNetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNetTests.debug.xcconfig"; path = "Target Support Files/Pods-StarNetTests/Pods-StarNetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNet_StarNetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FCC03CA7FECE7C8C1ACAC1 /* Pods-StarNetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNetTests.release.xcconfig"; path = "Target Support Files/Pods-StarNetTests/Pods-StarNetTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5389331883FFC2229FC6FB /* Pods_StarNet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF44CB4BBA1097919CDB6D93 /* Pods_StarNetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD6FC4B931F6043860B8C1D /* Pods_StarNet_StarNetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				6AD79410278A644900FC4EF7 /* StarNetTests */,
 				6AD7941A278A644900FC4EF7 /* StarNetUITests */,
 				6AD793F8278A644700FC4EF7 /* Products */,
+				E7766BF45CD1A5AD991B1F64 /* Pods */,
+				D7646DE13D5CF2E5A77509BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = StarNetUITests;
 			sourceTree = "<group>";
 		};
+		D7646DE13D5CF2E5A77509BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */,
+				E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */,
+				9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7766BF45CD1A5AD991B1F64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */,
+				4DEBEA088703E57540DB078A /* Pods-StarNet.release.xcconfig */,
+				4DCDB090AEF44C76E4A3DFF9 /* Pods-StarNet-StarNetUITests.debug.xcconfig */,
+				9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */,
+				DACEFFA50B7FC2A1BBCBF425 /* Pods-StarNetTests.debug.xcconfig */,
+				F0FCC03CA7FECE7C8C1ACAC1 /* Pods-StarNetTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AD79421278A644A00FC4EF7 /* Build configuration list for PBXNativeTarget "StarNet" */;
 			buildPhases = (
+				6D0E40C7382D3DABECD3C6FF /* [CP] Check Pods Manifest.lock */,
 				6AD793F3278A644700FC4EF7 /* Sources */,
 				6AD793F4278A644700FC4EF7 /* Frameworks */,
 				6AD793F5278A644700FC4EF7 /* Resources */,
+				5691EDD936EFE06FFC607A3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AD79424278A644A00FC4EF7 /* Build configuration list for PBXNativeTarget "StarNetTests" */;
 			buildPhases = (
+				0A3C1C0D95138B1C84D48CB1 /* [CP] Check Pods Manifest.lock */,
 				6AD79409278A644900FC4EF7 /* Sources */,
 				6AD7940A278A644900FC4EF7 /* Frameworks */,
 				6AD7940B278A644900FC4EF7 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AD79427278A644A00FC4EF7 /* Build configuration list for PBXNativeTarget "StarNetUITests" */;
 			buildPhases = (
+				A5B273413F19836B5E6C101D /* [CP] Check Pods Manifest.lock */,
 				6AD79413278A644900FC4EF7 /* Sources */,
 				6AD79414278A644900FC4EF7 /* Frameworks */,
 				6AD79415278A644900FC4EF7 /* Resources */,
+				EC6C1255959A91E822C85F6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +253,7 @@
 				};
 			};
 			buildConfigurationList = 6AD793F2278A644700FC4EF7 /* Build configuration list for PBXProject "StarNet" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A3C1C0D95138B1C84D48CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarNetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5691EDD936EFE06FFC607A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNet/Pods-StarNet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNet/Pods-StarNet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarNet/Pods-StarNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0E40C7382D3DABECD3C6FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B273413F19836B5E6C101D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarNet-StarNetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6C1255959A91E822C85F6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AD793F3278A644700FC4EF7 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		6AD79422278A644A00FC4EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +597,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +613,7 @@
 		};
 		6AD79423278A644A00FC4EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEBEA088703E57540DB078A /* Pods-StarNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +627,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +643,7 @@
 		};
 		6AD79425278A644A00FC4EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACEFFA50B7FC2A1BBCBF425 /* Pods-StarNetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +664,7 @@
 		};
 		6AD79426278A644A00FC4EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FCC03CA7FECE7C8C1ACAC1 /* Pods-StarNetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +685,7 @@
 		};
 		6AD79428278A644A00FC4EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCDB090AEF44C76E4A3DFF9 /* Pods-StarNet-StarNetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +704,7 @@
 		};
 		6AD79429278A644A00FC4EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
