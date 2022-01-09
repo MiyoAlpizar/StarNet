@@ -42,6 +42,16 @@
 		6AD79465278A6B1700FC4EF7 /* StorageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7945F278A6B1700FC4EF7 /* StorageServiceProtocol.swift */; };
 		6AD79468278A6B5200FC4EF7 /* UserPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79467278A6B5200FC4EF7 /* UserPersistence.swift */; };
 		6AD7946B278A6B9700FC4EF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7946A278A6B9700FC4EF7 /* Constants.swift */; };
+		6AD7946F278A6C0C00FC4EF7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7946D278A6C0C00FC4EF7 /* Reachability.swift */; };
+		6AD79470278A6C0C00FC4EF7 /* ReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD7946E278A6C0C00FC4EF7 /* ReachabilityHelper.swift */; };
+		6AD79479278A6C6B00FC4EF7 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79472278A6C6B00FC4EF7 /* SignUpPresenter.swift */; };
+		6AD7947A278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79473278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift */; };
+		6AD7947B278A6C6B00FC4EF7 /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79474278A6C6B00FC4EF7 /* SignUpProtocols.swift */; };
+		6AD7947C278A6C6B00FC4EF7 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79475278A6C6B00FC4EF7 /* SignUpInteractor.swift */; };
+		6AD7947E278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79477278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift */; };
+		6AD7947F278A6C6B00FC4EF7 /* SignUpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79478278A6C6B00FC4EF7 /* SignUpWireFrame.swift */; };
+		6AD79483278A6C9C00FC4EF7 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD79481278A6C9C00FC4EF7 /* SignUpView.xib */; };
+		6AD79484278A6C9C00FC4EF7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79482278A6C9C00FC4EF7 /* SignUpView.swift */; };
 		8FD6FC4B931F6043860B8C1D /* Pods_StarNet_StarNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E331ECB81DE677CF0589D7F3 /* Pods_StarNet_StarNetUITests.framework */; };
 		BE5389331883FFC2229FC6FB /* Pods_StarNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */; };
 		DF44CB4BBA1097919CDB6D93 /* Pods_StarNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0216532750C65C12AA0C9 /* Pods_StarNetTests.framework */; };
@@ -106,6 +116,16 @@
 		6AD7945F278A6B1700FC4EF7 /* StorageServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageServiceProtocol.swift; sourceTree = "<group>"; };
 		6AD79467278A6B5200FC4EF7 /* UserPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersistence.swift; sourceTree = "<group>"; };
 		6AD7946A278A6B9700FC4EF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6AD7946D278A6C0C00FC4EF7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		6AD7946E278A6C0C00FC4EF7 /* ReachabilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityHelper.swift; sourceTree = "<group>"; };
+		6AD79472278A6C6B00FC4EF7 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		6AD79473278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLocalDataManager.swift; sourceTree = "<group>"; };
+		6AD79474278A6C6B00FC4EF7 /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		6AD79475278A6C6B00FC4EF7 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		6AD79477278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRemoteDataManager.swift; sourceTree = "<group>"; };
+		6AD79478278A6C6B00FC4EF7 /* SignUpWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWireFrame.swift; sourceTree = "<group>"; };
+		6AD79481278A6C9C00FC4EF7 /* SignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		6AD79482278A6C9C00FC4EF7 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		70DB4B860C9ACE1A9432DDD4 /* Pods_StarNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734B42A1E6DFE6C70FC9D1A8 /* Pods-StarNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet.debug.xcconfig"; path = "Target Support Files/Pods-StarNet/Pods-StarNet.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3EBD9F1E88222A84B793AC /* Pods-StarNet-StarNetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNet-StarNetUITests.release.xcconfig"; path = "Target Support Files/Pods-StarNet-StarNetUITests/Pods-StarNet-StarNetUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,12 +188,14 @@
 		6AD793F9278A644700FC4EF7 /* StarNet */ = {
 			isa = PBXGroup;
 			children = (
+				6AD7946C278A6BE200FC4EF7 /* Helpers */,
 				6AD79469278A6B8900FC4EF7 /* Utilities */,
 				6AD79466278A6B3600FC4EF7 /* Persistence */,
 				6AD79459278A6AE700FC4EF7 /* Services */,
 				6AD7944B278A699000FC4EF7 /* Entities */,
 				6AD7943C278A691F00FC4EF7 /* Extensions */,
 				6AD7942D278A68EE00FC4EF7 /* Start */,
+				6AD79471278A6C4600FC4EF7 /* SignUp */,
 				6AD7942A278A671200FC4EF7 /* Default */,
 			);
 			path = StarNet;
@@ -284,6 +306,38 @@
 				6AD7946A278A6B9700FC4EF7 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6AD7946C278A6BE200FC4EF7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6AD7946D278A6C0C00FC4EF7 /* Reachability.swift */,
+				6AD7946E278A6C0C00FC4EF7 /* ReachabilityHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6AD79471278A6C4600FC4EF7 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79480278A6C6F00FC4EF7 /* Views */,
+				6AD79472278A6C6B00FC4EF7 /* SignUpPresenter.swift */,
+				6AD79473278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift */,
+				6AD79474278A6C6B00FC4EF7 /* SignUpProtocols.swift */,
+				6AD79475278A6C6B00FC4EF7 /* SignUpInteractor.swift */,
+				6AD79477278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift */,
+				6AD79478278A6C6B00FC4EF7 /* SignUpWireFrame.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6AD79480278A6C6F00FC4EF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79482278A6C9C00FC4EF7 /* SignUpView.swift */,
+				6AD79481278A6C9C00FC4EF7 /* SignUpView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D7646DE13D5CF2E5A77509BB /* Frameworks */ = {
@@ -421,6 +475,7 @@
 				6AD79407278A644900FC4EF7 /* LaunchScreen.storyboard in Resources */,
 				6AD79404278A644900FC4EF7 /* Assets.xcassets in Resources */,
 				6AD79402278A644700FC4EF7 /* Main.storyboard in Resources */,
+				6AD79483278A6C9C00FC4EF7 /* SignUpView.xib in Resources */,
 				6AD79457278A6A4000FC4EF7 /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,23 +605,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD7943B278A690500FC4EF7 /* StartWireFrame.swift in Sources */,
+				6AD7947B278A6C6B00FC4EF7 /* SignUpProtocols.swift in Sources */,
+				6AD79479278A6C6B00FC4EF7 /* SignUpPresenter.swift in Sources */,
 				6AD79460278A6B1700FC4EF7 /* APIService.swift in Sources */,
 				6AD79462278A6B1700FC4EF7 /* FirebaseStorageService.swift in Sources */,
 				6AD79444278A694800FC4EF7 /* UIColor+Extensions.swift in Sources */,
 				6AD79461278A6B1700FC4EF7 /* FirestoreService.swift in Sources */,
 				6AD79436278A690500FC4EF7 /* StartLocalDataManager.swift in Sources */,
 				6AD79468278A6B5200FC4EF7 /* UserPersistence.swift in Sources */,
+				6AD7946F278A6C0C00FC4EF7 /* Reachability.swift in Sources */,
 				6AD79451278A69B200FC4EF7 /* Question.swift in Sources */,
 				6AD79465278A6B1700FC4EF7 /* StorageServiceProtocol.swift in Sources */,
 				6AD79450278A69B200FC4EF7 /* Message.swift in Sources */,
 				6AD79447278A694800FC4EF7 /* Firebase+Extensions.swift in Sources */,
+				6AD79484278A6C9C00FC4EF7 /* SignUpView.swift in Sources */,
+				6AD7947A278A6C6B00FC4EF7 /* SignUpLocalDataManager.swift in Sources */,
 				6AD7946B278A6B9700FC4EF7 /* Constants.swift in Sources */,
+				6AD7947C278A6C6B00FC4EF7 /* SignUpInteractor.swift in Sources */,
 				6AD7944A278A694800FC4EF7 /* String+Extensions.swift in Sources */,
 				6AD79438278A690500FC4EF7 /* StartInteractor.swift in Sources */,
 				6AD793FF278A644700FC4EF7 /* ViewController.swift in Sources */,
 				6AD793FB278A644700FC4EF7 /* AppDelegate.swift in Sources */,
 				6AD79452278A69B200FC4EF7 /* iUser.swift in Sources */,
 				6AD79463278A6B1700FC4EF7 /* UserServiceProtocol.swift in Sources */,
+				6AD7947F278A6C6B00FC4EF7 /* SignUpWireFrame.swift in Sources */,
 				6AD79458278A6A4000FC4EF7 /* StartView.swift in Sources */,
 				6AD79464278A6B1700FC4EF7 /* FirebaseUserService.swift in Sources */,
 				6AD79449278A694800FC4EF7 /* UIViewController+Extensions.swift in Sources */,
@@ -575,7 +637,9 @@
 				6AD7943A278A690500FC4EF7 /* StartRemoteDataManager.swift in Sources */,
 				6AD79446278A694800FC4EF7 /* Number+Extensions.swift in Sources */,
 				6AD79445278A694800FC4EF7 /* UIView+Extensions.swift in Sources */,
+				6AD7947E278A6C6B00FC4EF7 /* SignUpRemoteDataManager.swift in Sources */,
 				6AD79448278A694800FC4EF7 /* EntityCast+Extensions.swift in Sources */,
+				6AD79470278A6C0C00FC4EF7 /* ReachabilityHelper.swift in Sources */,
 				6AD79453278A69B200FC4EF7 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
